@@ -42,6 +42,7 @@ usage() {
   -p, --client-port Client port if not based on current active ports
 
  * For pipe configuration options see: https://www.manpagez.com/man/8/dnctl/
+ * Use 0 to set an empty config (useful if you only want to shape a single direction)
 
  Examples:
  # Default: 40ms delay on 1 random port connected to 4004
